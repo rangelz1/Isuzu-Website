@@ -32,3 +32,41 @@ h3 {
 	text-align: center;
 	text-transform: uppercase;
 }
+
+article {
+	background-color: white;
+	padding: 17px;
+	padding-top: 5px;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	font-size: 0.75em;
+	font-style: italic;
+	padding-top: 5px;
+}
+
+.menu {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding-bottom: 5px; 
+}
+
+a:link, a:visited {
+	display: block;
+	width: 120px;
+	font-weight: bold;
+	color: white;
+	background: black;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	float: left;
+}
+
+a:hover, a:active {
+	color: #ff5c5c;
+}

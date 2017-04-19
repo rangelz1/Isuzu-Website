@@ -46,8 +46,10 @@ h1 {
 	text-shadow: 2px 2px 2px #333; 
 }
 
+
+
 /* h1 animation */
-#indxh1 {
+#muxh1 {
     width: 100%;
     height: 10px;
     -webkit-animation: indx 5s 1; /* Chrome, Safari, Opera */
@@ -84,20 +86,44 @@ h1 {
 
 /* h1 animation End */
 
-h2 {
+/* h2 {
 	color: red;
 	text-transform: uppercase;
-}
+} */
 
 h3 {
 	text-align: center;
 	text-transform: uppercase;
 }
 
-article {
-	background-color: white;
+
+.about {
 	padding: 17px;
-	padding-top: 5px;
+	margin: 0 auto; 
+	background-color: #e0e0e0;
+	transform-style: preserve-3d;
+	transform: perspective(800px); 
+}
+
+.about h2 {
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 400;
+	color: red;
+}
+
+.about h2, .about p {
+	transition: all 0.8s ease;
+}
+
+.about.hidden h2 {
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(-40deg);
+}
+
+.about.hidden p {
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(40deg);
 }
 
 footer {

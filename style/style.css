@@ -13,7 +13,7 @@ img {
 	width: 100%;
 }
 
-img .indx {
+img .indxh1 {
 	animation: expand 2s ease-in-out 0s infinite
 }
 
@@ -43,7 +43,7 @@ h1 {
 	text-align: center;
 	color: #ffd88e;
 	text-transform: uppercase;
-	text-shadow: 2px 2px 2px #333; 
+	text-shadow: 5px 5px 5px #333; 
 }
 
 
@@ -84,18 +84,17 @@ h1 {
 	}
 }
 
-/* h1 animation End */
-
-/* h2 {
-	color: red;
-	text-transform: uppercase;
-} */
 
 h3 {
 	text-align: center;
 	text-transform: uppercase;
 }
 
+article {
+	padding: 17px;
+	margin: 0 auto; 
+	background-color: #e0e0e0;
+}
 
 .about {
 	padding: 17px;
@@ -135,11 +134,12 @@ footer {
 }
 
 .menu {
-	/*padding-top: 0px;*/
+	padding-top: 0px;
 	list-style-type: none;
 	margin: 0;
 	overflow: hidden;
 	padding-bottom: 5px; 
+	font-size: 20px;
 }
 
 a:link, a:visited {
@@ -153,6 +153,8 @@ a:link, a:visited {
 	text-decoration: none;
 	text-transform: uppercase;
 	float: left;
+	height: 40px;
+
 }
 
 a:hover, a:active {
